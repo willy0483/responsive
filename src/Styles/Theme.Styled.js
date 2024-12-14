@@ -33,7 +33,7 @@ export const theme = {
         columns: "repeat(6,1fr)",
         areas: `
                 "header header header header navbar navbar"
-                "sidebar sidebar main main main main"
+                "sidebar main main main main main"
                 "footer footer footer footer footer footer"
             `,
       },
@@ -44,7 +44,7 @@ export const theme = {
         columns: "repeat(6,1fr)",
         areas: `
                 "header header navbar navbar navbar navbar"
-                "main main main main sidebar sidebar"
+                "main main main main main sidebar"
                 "footer footer footer footer footer footer"
             `,
       },
