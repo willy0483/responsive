@@ -4,8 +4,8 @@ export const SideBarStyle = styled.aside`
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  background-color: ${(props) => props.theme.color.secondary};
-  color: ${(props) => props.theme.color.black};
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.text};
 
   grid-area: sidebar;
 
@@ -23,7 +23,7 @@ export const SideBarStyle = styled.aside`
       margin-bottom: 0.5rem;
 
       a {
-        color: ${(props) => props.theme.color.black};
+        color: ${(props) => props.theme.color.text};
         text-decoration: none;
         font-size: 1rem;
 

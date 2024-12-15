@@ -5,8 +5,8 @@ export const FooterStyled = styled.footer`
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  background-color: ${(props) => props.theme.color.primary};
-  color: ${(props) => props.theme.color.white};
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.text};
 
   grid-area: footer;
 
@@ -20,7 +20,7 @@ export const FooterStyled = styled.footer`
       gap: 1rem;
 
       a {
-        color: ${(props) => props.theme.color.white};
+        color: ${(props) => props.theme.color.text};
         text-decoration: none;
         font-size: 1.5rem;
 

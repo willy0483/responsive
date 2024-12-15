@@ -5,8 +5,8 @@ export const NavbarStyled = styled.nav`
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: ${(props) => props.theme.color.primary};
-  color: ${(props) => props.theme.color.white};
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.text};
 
   grid-area: navbar;
 
@@ -17,7 +17,7 @@ export const NavbarStyled = styled.nav`
 
     li {
       a {
-        color: ${(props) => props.theme.color.white};
+        color: ${(props) => props.theme.color.text};
         text-decoration: none;
         font-size: 1rem;
 

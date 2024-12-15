@@ -5,8 +5,8 @@ export const HeaderStyled = styled.header`
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  background-color: ${(props) => props.theme.color.primary};
-  color: ${(props) => props.theme.color.white};
+  background-color: ${(props) => props.theme.color.background};
+  color: ${(props) => props.theme.color.text};
   grid-area: header;
 
   .logo {

@@ -1,11 +1,10 @@
 export const theme = {
   color: {
-    primary: "#333",
-    secondary: "#f2f2f2",
-    accent: "#ff0000",
-    white: "#fff",
-    black: "#000",
-    red: "red",
+    primary: "#8faaff",
+    secondary: "#1d2951",
+    accent: "#5a76e7",
+    text: "#e4e8ff",
+    background: "#0a0d21",
   },
   grid: {
     breakpoints: {
