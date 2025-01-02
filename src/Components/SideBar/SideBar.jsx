@@ -1,4 +1,5 @@
 import { SideBarStyle } from "./SideBar.styled";
+import { Link } from "react-router-dom";
 
 export const SideBar = () => {
   return (
@@ -6,16 +7,16 @@ export const SideBar = () => {
       <h3>Side Navigation</h3>
       <ul>
         <li>
-          <a href="#dashboard">Dashboard</a>
+          <Link to={"/Dashboard"}>Dashboard</Link>
         </li>
         <li>
-          <a href="#profile">Profile</a>
+        <Link to={"/Profile"}>Profile</Link>
         </li>
         <li>
-          <a href="#settings">Settings</a>
+        <Link to={"/Settings"}>Settings</Link>
         </li>
         <li>
-          <a href="#logout">Logout</a>
+        <Link to={"/Logout"}>Logout</Link>
         </li>
       </ul>
     </SideBarStyle>

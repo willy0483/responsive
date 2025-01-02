@@ -9,6 +9,11 @@ export const HeaderStyled = styled.header`
   color: ${(props) => props.theme.color.text};
   grid-area: header;
 
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
